@@ -26,27 +26,26 @@ Understanding what factors bring about socio-economic development may often suff
 
 The brief description about the steps of execution in order along with details of scripts implementation is given as following:-
 
-1. **Dataset Creation
-    - *filterArticles.ipynb*
-    - *Articles_Collection.ipynb*
-    - *Dataset_Creation.ipynb*
+1. **Dataset Creation**
+    - *filterArticles.ipynb* :- 
+    - *Articles_Collection.ipynb* :-
+    - *Dataset_Creation.ipynb* :-
 
-2. **Clustering over Vector Embeddings
-    - *trainModel.ipynb*
-    - *vectorClustering.ipynb*
+2. **Clustering over Vector Embeddings**
+    - *trainModel.ipynb* :-
+    - *vectorClustering.ipynb* :-
 
-3. **Topic Modeling
-    - *topicModeling.ipynb*
+3. **Topic Modeling**
+    - *topicModeling.ipynb* :-
 
-4. **TFIDF based selection
-    - *tfidfSelection.ipynb*
+4. **TFIDF based selection**
+    - *tfidfSelection.ipynb* :-
 
-5. **Evaluation
-    - *quantMetrics.ipynb*
-    - *qualMetric.ipynb*
+5. **Evaluation**
+    - *quantMetrics.ipynb* :-
+    - *qualMetric.ipynb* :-
 
-6. **Applications
-    - *districtAnalysis.ipynb*
-    - *tSNE.ipynb*
-    - *unusualTopics.ipynb*
-
+6. **Applications**
+    - *districtAnalysis.ipynb* :-
+    - *tSNE.ipynb* :-
+    - *unusualTopics.ipynb* :-
