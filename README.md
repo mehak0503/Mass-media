@@ -1,4 +1,4 @@
-# Understanding the growth pattern in districts of India using mass media data
+# Exploring the Scope of Using News Articles to Understand Development Patterns of Districts in India
 
 ### Overview
 
@@ -39,19 +39,19 @@ The brief description about the steps of execution in order along with details o
 
 2. **Clustering over Vector Embeddings**
     - *trainModel.ipynb* :- Updates the dataset based on NewADI values and trains DocTag2Vec model using Tagged Documents created with (id, district id, employment label, pace of growth label) as tags associated with each document.
-    - *vectorClustering.ipynb* :- 
+    - *vectorClustering.ipynb* :- Performs agglomerative hierarchical clustering over document embeddings computed using DocTag2Vec model where number of clusters are obtained using cophenetic distance obtained from dendrogram visualization. It also removes the outlier clusters based on cophenetic correlation coefficient and selects articles based on proposed ranking method. 
 
 3. **Topic Modeling**
-    - *topicModeling.ipynb* :-
+    - *topicModeling.ipynb* :- Performs topic modeling using LDA(Latent Dirichlet Allocation) technique where number of topics is decided using coherence score. 
 
 4. **TFIDF based selection**
-    - *tfidfSelection.ipynb* :-
+    - *tfidfSelection.ipynb* :- Performs selection of articles based on TFIDF aggregate score ranking. 
 
 5. **Evaluation**
-    - *quantMetrics.ipynb* :-
-    - *qualMetric.ipynb* :-
+    - *quantMetrics.ipynb* :- Computes quantitative metrics i.e. Eucledian distance, Global centroid similarity, Tf-idf based jaccard similarity, Entropy over the articles selected using clustering over vector embeddings, topic modeling and tfidf based selection.
+    - *qualMetric.ipynb* :- Computes qualitative metric i.e. t-test and p-score values for review ratings.
 
 6. **Applications**
-    - *districtAnalysis.ipynb* :-
-    - *tSNE.ipynb* :-
-    - *unusualTopics.ipynb* :-
+    - *districtAnalysis.ipynb* :- Selects articles from districts using clustering over vector embeddings based on ranking method.
+    - *tSNE.ipynb* :- Visualizes TSNE embeddings for the district vectors for each sub-class. 
+    - *unusualTopics.ipynb* :- Selects the articles with highest similarity to global centroid to extract unusual topics.
