@@ -20,6 +20,12 @@ Understanding what factors bring about socio-economic development may often suff
     - matplotlib
     - pymongo
     
+    
+### Dataset
+
+- Mass media dataset :- Created using crawling 5 online English news sources and categorising them into 5 categories i.e. Agriculture, Development, Environment, Industrialization, Lifestyle along with processing of named entity recognition using OpenCalais.
+- Pace of growth labels :- Computed using ADI values of 2011 and 2019 calculated using Census data.
+- Employment labels :- Generated using discretization of variables using Census data.
  
 
 ### Implementation Details
@@ -27,13 +33,13 @@ Understanding what factors bring about socio-economic development may often suff
 The brief description about the steps of execution in order along with details of scripts implementation is given as following:-
 
 1. **Dataset Creation**
-    - *filterArticles.ipynb* :- 
-    - *Articles_Collection.ipynb* :-
-    - *Dataset_Creation.ipynb* :-
+    - *filterArticles.ipynb* :- Filter out the articles based on keyword based search from the entire crawled corpus of data to create 5 categories.
+    - *Articles_Collection.ipynb* :- Maps the articles in collections to their corresponding district ids and filter out the id, title, text, location, published date fields to create dataset for further analysis. 
+    - *Dataset_Creation.ipynb* :- Performs location mapping from 2011 to 2001 district ids, pace of growth label mapping, employment label mapping, industry type mapping, entity blinding to create dataset in form of (id, title, text, district id, employment label, industry type, pace of growth label).
 
 2. **Clustering over Vector Embeddings**
-    - *trainModel.ipynb* :-
-    - *vectorClustering.ipynb* :-
+    - *trainModel.ipynb* :- Updates the dataset based on NewADI values and trains DocTag2Vec model using Tagged Documents created with (id, district id, employment label, pace of growth label) as tags associated with each document.
+    - *vectorClustering.ipynb* :- 
 
 3. **Topic Modeling**
     - *topicModeling.ipynb* :-
