@@ -26,6 +26,13 @@ Understanding what factors bring about socio-economic development may often suff
 - Mass media dataset :- Created using crawling 5 online English news sources and categorising them into 5 categories i.e. Agriculture, Development, Environment, Industrialization, Lifestyle along with processing of named entity recognition using OpenCalais.
 - Pace of growth labels :- Computed using ADI values of 2011 and 2019 calculated using Census data.
 - Employment labels :- Generated using discretization of variables using Census data.
+- Google drive link for the dataset used for this work: 
+https://drive.google.com/file/d/189FK00Q81IQ5u8EKRkeZVf6vwyzHRG7t/view?usp=sharing
+
+### Model
+
+Google drive link for the doctag2vec model containing vector embeddings for this work:
+https://drive.google.com/file/d/18ByxbHogHp5_vOG4FMa6Sgsuq9TEDZ_O/view?usp=sharing
  
 
 ### Implementation Details
