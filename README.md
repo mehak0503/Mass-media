@@ -29,9 +29,9 @@ Understanding what factors bring about socio-economic development may often suff
 - Google drive link for the dataset used for this work: 
 https://drive.google.com/file/d/189FK00Q81IQ5u8EKRkeZVf6vwyzHRG7t/view?usp=sharing
 
-### Model
+### DocTag2Vec Model
 
-Google drive link for the doctag2vec model containing vector embeddings for this work:
+Google drive link for the doctag2vec models for each collection containing vector embeddings for this work:
 https://drive.google.com/file/d/18ByxbHogHp5_vOG4FMa6Sgsuq9TEDZ_O/view?usp=sharing
  
 
