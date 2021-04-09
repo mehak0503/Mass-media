@@ -10,7 +10,7 @@ Understanding what factors bring about socio-economic development may often suff
 - Python3.7+
 - Following packages needs to be installed to run the scripts:-
     - nltk
-    - gensim
+    - gensim == 3.6.0
     - sklearn
     - scipy
     - numpy
