@@ -1,3 +1,7 @@
+# To run: split_temporal.py 'collection_name' 1 1
+# 1st argument : collection name (agriculture, development, environment, industrialization, lifestyle)
+# 2nd argument : split? (yes:1 , no:0)
+# 3rd argument : train? (yes:1 , no:0)
 #!/usr/bin/env python
 # coding: utf-8
 import sys
@@ -98,19 +102,19 @@ def DT2V_train(collection_name):
 # Collect argument and specify the collection
 collec = sys.argv[1]
 
-if collec == 'a':
+if collec == 'agriculture':
     dataset = 'dataset_agriculture'
-elif collec == 'd':
+elif collec == 'development':
     dataset = 'dataset_development'
-elif collec == 'e':
+elif collec == 'environment':
     dataset = 'dataset_environment'
-elif collec == 'i':
+elif collec == 'industrialization':
     dataset = 'dataset_industrialization'
-elif collec == 'l':
+elif collec == 'lifestyle':
     dataset = 'dataset_lifestyle'
 else:
     dataset = None
-    print('dataset not specified')
+    print('Dataset not specified')
     exit(0)
 
 
