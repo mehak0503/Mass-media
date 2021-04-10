@@ -65,5 +65,5 @@ The brief description about the steps of execution in order along with details o
     - *Newsfeed Generation*
         -  temporal_split.py "collection" split? train? :- Temporaly(year wise) splits the dataset(given above) into train test and trains Doc2Vec model on train dataset (Arguments 1st - collection name, 2nd - Split? (0 for No /1 for Yes), 3rd - Train? (0 for No/ 1 for Yes)
         -  Newsfeed_ArticleClassification.ipynb :- Reads "Split Dataset" and models trained on them and Predicts emp type and pace of growth for recent articles and saves the "Predicted Dataset"
-        -  Newsfeed_InterestingDistrictAnalysis :- Reads the "Predicted Dataset" Plot CDF of outlier ratios and find interesting districts with changes happening
-        -  Google Drive Link for 1. Temporally Split datasets, 2. Models trained on them, 3. Predicted Datasets . (for all collections)
+        -  Newsfeed_DistrictAnalysis :- Reads the "Predicted Dataset" Plot CDF of outlier ratios and find interesting districts with changes happening
+        -  Google Drive Link for 1. Temporally Split datasets, 2. Models trained on them, 3. Predicted Datasets, 4. District Id mapping used in 'Newsfeed_DistrictAnalysis"
