@@ -62,3 +62,6 @@ The brief description about the steps of execution in order along with details o
     - *districtAnalysis.ipynb* :- Selects articles from districts using clustering over vector embeddings based on ranking method.
     - *tSNE.ipynb* :- Visualizes TSNE embeddings for the district vectors for each sub-class. 
     - *unusualTopics.ipynb* :- Selects the articles with highest similarity to global centroid to extract unusual topics.
+    - *Newsfeed Generation*
+        -  Newsfeed_ArticleClassification.ipynb :- Predicts emp type and pace of growth for recent articles
+        -  Newsfeed_InterestingDistrictAnalysis :- Plot CDF of outlier ratios and find interesting districts with changes happening
