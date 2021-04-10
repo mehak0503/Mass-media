@@ -10,9 +10,9 @@ from gensim.models.doc2vec import Doc2Vec, TaggedDocument
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.model_selection import train_test_split
 
-#Folder and file paths
+#Folder and file paths (Make sure paths are correct before using this file)
 FOLDER = './' # Folder with this code
-PATHS = {'Dataset':FOLDER+'Datasets/newADIdataset/','Train':FOLDER+'Split/Temporal/train_dataset_','Test':FOLDER+'Split/Temporal/test_dataset_','Model':FOLDER+'Split/Temporal/model_'}
+PATHS = {'Dataset':FOLDER+'Datasets/','Train':FOLDER+'Split/Temporal/train_dataset_','Test':FOLDER+'Split/Temporal/test_dataset_','Model':FOLDER+'Split/Temporal/model_'}
 
 df = pd.read_csv('Files/pace.csv')
 dist_map = {}
