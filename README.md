@@ -31,13 +31,11 @@ Our work is published in [ACM KDD DSSG'21](https://amulyayadav.github.io/DSSG-21
 - Mass media dataset :- Created using crawling 5 online English news sources and categorising them into 5 categories i.e. Agriculture, Development, Environment, Industrialization, Lifestyle along with processing of named entity recognition using OpenCalais.
 - Pace of growth labels :- Computed using ADI values of 2011 and 2019 calculated using Census data. These labels can be found in *Files/pace.csv*.
 - Employment labels :- Generated using discretization of variables using Census data. These labels can be found in *Files/labels_2011.csv*.
-- Google drive link for the dataset used for this work: 
-https://drive.google.com/file/d/189FK00Q81IQ5u8EKRkeZVf6vwyzHRG7t/view?usp=sharing
+- Google drive link for the dataset used for this work: [Drive link](https://drive.google.com/file/d/189FK00Q81IQ5u8EKRkeZVf6vwyzHRG7t/view?usp=sharing)
 
 ### DocTag2Vec Model
 
-Google drive link for the doctag2vec models for each collection containing vector embeddings for this work:
-https://drive.google.com/file/d/18ByxbHogHp5_vOG4FMa6Sgsuq9TEDZ_O/view?usp=sharing
+Google drive link for the doctag2vec models for each collection containing vector embeddings for this work: [Drive link](https://drive.google.com/file/d/18ByxbHogHp5_vOG4FMa6Sgsuq9TEDZ_O/view?usp=sharing)
  
 
 ### Implementation Details
@@ -71,6 +69,6 @@ The brief description about the steps of execution in order along with details o
         - temporal_split.py "collection" split into train and test :- Temporaly(year wise) splits the dataset(given above) into train test and trains Doc2Vec model on train dataset (Arguments 1st - collection name, 2nd - Split (0 for No /1 for Yes), 3rd - Train (0 for No/ 1 for Yes)
         -  Newsfeed_ArticleClassification.ipynb :- Reads "Split Dataset" and models trained on them and Predicts emp type and pace of growth for recent articles and saves the "Predicted Dataset"
         -  Newsfeed_DistrictAnalysis :- Reads the "Predicted Dataset" Plot CDF of outlier ratios and find interesting districts with changes happening
-        -  Google Drive Link for </br>
-                 1. Temporally Split datasets, 2. Models trained on them, 3. Predicted Datasets, 4. District Id mapping used in 'Newsfeed_DistrictAnalysis" </br>  
-                 https://drive.google.com/file/d/1_-UwCC7_e8AbpkhVh9djdoK4bf1P1LOv/view?usp=sharing
+        -  [Google Drive Link](https://drive.google.com/file/d/1_-UwCC7_e8AbpkhVh9djdoK4bf1P1LOv/view?usp=sharing) for </br>
+                 1. Temporally Split datasets, 2. Models trained on them, 3. Predicted Datasets, 4. District Id mapping used in 'Newsfeed_DistrictAnalysis"
+                 
