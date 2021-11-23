@@ -7,7 +7,7 @@ Understanding what factors bring about socio-economic development may often suff
 
 ### Publication
 
-Our work is published in [ACM KDD DSSG'21] (https://amulyayadav.github.io/DSSG-21/). The full paper version of publication can be found at [Published Paper] (https://www.cse.iitd.ernet.in/%7Easeth/explaining_development_patterns.pdf).  
+Our work is published in [ACM KDD DSSG'21](https://amulyayadav.github.io/DSSG-21/). The full paper version of publication can be found at [Published Paper](https://www.cse.iitd.ernet.in/%7Easeth/explaining_development_patterns.pdf).  
 
 
 ### Project Requirements
@@ -71,6 +71,6 @@ The brief description about the steps of execution in order along with details o
         -  temporal_split.py "collection" split? train? :- Temporaly(year wise) splits the dataset(given above) into train test and trains Doc2Vec model on train dataset (Arguments 1st - collection name, 2nd - Split? (0 for No /1 for Yes), 3rd - Train? (0 for No/ 1 for Yes)
         -  Newsfeed_ArticleClassification.ipynb :- Reads "Split Dataset" and models trained on them and Predicts emp type and pace of growth for recent articles and saves the "Predicted Dataset"
         -  Newsfeed_DistrictAnalysis :- Reads the "Predicted Dataset" Plot CDF of outlier ratios and find interesting districts with changes happening
-        -  Google Drive Link for 
+        -  Google Drive Link for </br>
                  1. Temporally Split datasets, 2. Models trained on them, 3. Predicted Datasets, 4. District Id mapping used in 'Newsfeed_DistrictAnalysis"   
                  https://drive.google.com/file/d/1_-UwCC7_e8AbpkhVh9djdoK4bf1P1LOv/view?usp=sharing
